@@ -14,9 +14,8 @@ The **Semantic Resonance Analyzer** is a multi-stage AI pipeline that ingests th
 
 To prove this concept, I chose two of my favorite creators: **Adam Savage** (`u/mistersavage`) and **J. Kenji López-Alt** (`u/J_Kenji_Lopez-Alt`). One is a master of the workshop, the other a master of the kitchen. This project's goal was to find the "semantic resonance" in their shared, underlying passion for craftsmanship, scientific methodology, and meticulous experimentation.
 
-![App Screenshot](https://raw.githubusercontent.com/GauravOjha2/semantic-resonance-analyzer/main/app_screenshot.png) 
-*(Suggestion: Add a screenshot of your beautiful Streamlit app and name it `app_screenshot.png` in your repository for it to show up here!)*
-
+![App Screenshot](<img width="1731" height="887" alt="{06698A3D-E3AA-4C11-B08C-48DCCCA8B753}" src="https://github.com/user-attachments/assets/b5282a8b-62ff-4904-ac7e-89dd3c2bb8db" />
+) 
 ---
 
 ## The Engineering Journey: From Brute Force to a Resilient Pipeline
