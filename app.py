@@ -7,7 +7,7 @@ import os
 # This part is working perfectly. No changes needed.
 try:
     genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
-    model = genai.GenerativeModel('gemini-1.5-flash') 
+    model = genai.GenerativeModel('gemini-2.5-flash-lite') 
 except Exception as e:
     st.error("🔴 Error: Your Google API Key is not set correctly in the Streamlit Secrets. Please add it.")
     st.stop()
@@ -86,3 +86,4 @@ if st.button("Analyze Their Connection", type="primary"):
 
 st.sidebar.info("This app analyzes the pre-computed semantic similarity scores of ~17,400 post pairs to generate a holistic compatibility report.")
 st.sidebar.dataframe(df_results.head())
+
