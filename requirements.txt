@@ -1,3 +1,13 @@
 streamlit
 pandas
+
 google-generativeai
+
+# For the Data Pipeline
+pandas
+praw
+python-dotenv
+sentence-transformers
+torch
+faiss-cpu
+tqdm
