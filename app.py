@@ -9,7 +9,7 @@ import os
 try:
     genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
     # This is the model name you discovered that works!
-    model = genai.GenerativeModel('gemini-1.5-flash') 
+    model = genai.GenerativeModel('gemini-2.5-flash-lite') 
 except Exception as e:
     # This will show a nice error message if the secret is not set.
     st.error("🔴 Error: Your Google API Key is not set correctly in the Streamlit Secrets. Please add it.")
@@ -66,4 +66,5 @@ if st.button("Analyze Their Connection", type="primary"):
         st.markdown(final_report)
 
 st.sidebar.info("This app analyzes the pre-computed semantic similarity scores of ~17,400 post pairs to generate a holistic compatibility report.")
+
 st.sidebar.dataframe(df_results.head())
